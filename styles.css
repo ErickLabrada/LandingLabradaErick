@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.Portada {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Portada h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.Portada a {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.Portada h3 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #444;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #666;
+}
+
+ul {
+    list-style-type: upper-alpha;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+.Contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.Contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #444;
+}
+
+.Contact p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Contact ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.Contact ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.Contact ul li strong {
+    color: #444;
+}
